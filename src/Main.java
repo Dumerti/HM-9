@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         Author Nikolay = new Author("Николай", "Гоголь");
-        Book DeadSoul = new Book("Мертвые души", "Nikolay", 1835);
+        Book DeadSoul = new Book("Мертвые души", Nikolay, 1835);
         Author Alex = new Author("Александер", "Пушкин");
-        Book Dubrovski = new Book("Дубровский", "Alex", 1941);
+        Book Dubrovski = new Book("Дубровский", Alex, 1941);
         System.out.println("Имя автора: " + Nikolay.getName());
         System.out.println("Фамилия автора: " + Nikolay.getLastname());
         System.out.println("Название книги: " + DeadSoul.getTitle());
