@@ -16,7 +16,7 @@ public class Main {
         System.out.println("Имя автора: " + Alex.getName());
         System.out.println("Фамилия автора: " + Alex.getLastname());
         System.out.println("Название книги: " + Dubrovski.getTitle());
-        System.out.println("Автор книги: " + Dubrovski.getAuthor().getName() + " " + Dubrovski.getAuthor().getLastname());
+        System.out.println("Автор книги: " + Dubrovski.getAuthor().getName() + " " + Alex);
         System.out.println("Год книги: " + Dubrovski.getYear());
         System.out.println();
         Dubrovski.setYear(1940);
